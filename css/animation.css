@@ -1,0 +1,56 @@
+/*============== NAVBAR SCROLL ==============*/
+@keyframes scroll{
+    0%{
+        background-color: transparent;
+    }
+    10%{
+        background-color: var(--first-color-alt);
+    }
+    100%{
+        background-color: var(--first-color-alt);
+    }
+}
+.list a:hover{
+    background-color: var(--first-color-light);
+    color: var(--black-color);
+    padding: 12px;
+    border-radius: 10px;
+    transition: 1s ease-out;
+}
+/*============== SUMMARY ==============*/
+@keyframes kl{
+    to{
+        transform: translateY(30px);
+    }
+}
+/*============== ABOUT ME ==============*/
+.button-about-me:hover{
+    padding: 10px 25px;
+    transition: 1s;
+    background-color: var(--text-color);
+}
+/*============== PROJETOS ==============*/
+.button-project:hover{
+    padding: 10px 25px;
+    transition: 1s;
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+/*============== FOOTER ==============*/
+.footer-icon:hover{
+    outline: 3px solid var(--purple);
+    color: var(--purple);
+    transition: 1s;
+}
+/*============== SCROLLBAR ==============*/
+body::-webkit-scrollbar{
+    /* largura de toda a barra de rolagem */
+    width: 10px;
+}
+body::-webkit-scrollbar-track{
+    /* cor da área de rastreamento */
+    background: var(--purple);
+}
+body::-webkit-scrollbar-thumb{
+    background-color: var(--white-color);
+}
